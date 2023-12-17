@@ -1,0 +1,538 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:0%;
+}
+.navigationbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+}
+.navilogo{
+    height: 80px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.navisearch{
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.navisearch>input{
+    height: 40px;
+    width: 100%;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+
+}
+.navisign{
+    height: 80px;
+    width: 40%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navisign>a>button{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px ;
+}
+.shoppingIamage{
+    height: 700px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.haveAlook{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.haveAlook1{
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    /* border-radius: 25%; */
+    background-color: whitesmoke;
+   
+}
+
+
+.productsDetails{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.productsDetails>a{
+    text-decoration: none;
+}
+
+.productsDetailsInnercontainer1{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid; */
+    background-image: url(./images/mobile.png);
+    background-size: cover;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items:last baseline;
+    color: rgb(14, 4, 4);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.productsDetailsInnercontainer1>div{
+    width: 97%;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color:rgba(0, 0,0, 0.5);
+
+}
+.productsDetailsInnercontainer2{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid; */
+    background-image: url(./images/dress.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items:last baseline;
+    color: rgb(48, 18, 18);
+    font-size: 35px;
+    font-weight: 700;
+}
+.productsDetailsInnercontainer2>div{
+    width: 97%;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color:rgba(0, 0,0, 0.5);
+
+}
+.productsDetailsInnercontainer3{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid; */
+    background-image: url(./images/kitchenimg.webp);
+    background-size: cover;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items:last baseline;
+    color: rgb(215, 202, 202);
+    font-size: 35px;
+    font-weight: 700;
+}
+.productsDetailsInnercontainer3>div{
+    width: 97%;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color:rgba(0, 0,0, 0.5);
+
+}
+.productsDetailsInnercontainer4{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid; */
+    background-image: url(./images/watches.jpg);
+
+    background-size: cover;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items:last baseline;
+    color: rgb(22, 2, 2);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.productsDetailsInnercontainer4>div{
+    width: 97%;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color:rgba(0, 0,0, 0.5);
+
+}
+.navisign>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.timeCountdown{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.timeCountdown1{
+    height: 100px;
+    width: 50%;
+    /* color: rgb(172, 171, 227); */
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(./images/count1.jpg);
+
+
+}
+#countdown{
+    color: red;
+    font-size:30px;
+    font-weight: bold;
+
+}
+
+
+.aboutMain {
+    height: 400px;   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* background-color: aqua; */
+}
+
+.about-section {
+    height: 400px;
+    width: 30%;
+    border-radius: 8px;
+}
+.about-section>h1 {
+    color:rgb(67, 45, 4);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.about-section1{
+    height: 300px;
+    width: 50%;
+}
+.about-section1image>img{
+    border-radius: 20px;
+}
+
+
+.about-content {
+    line-height: 1.6;
+}
+.about-content>h2 {
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+.aboutusContentForAnyQuery{
+    height:200px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.aboutusContentForAnyQuery1{
+    height: 200px;
+    width: 90%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  }
+
+
+
+
+/* ----------loginpage css start here----------- */
+
+.logForm{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .loginForm{
+        height: 300px;
+        width: 400px;
+        background-color: rgb(237, 234, 234);
+        text-align: center;
+    }
+    
+    .forpass{
+        text-decoration: none;
+    }
+    .form1{
+        font-family:monospace;
+    }
+    .formField{
+        width: 300px;
+        height: 40px;
+        font-size: large;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .formButton{
+        width: 150px;
+        height: 40px;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: yellow;
+        background-color:rgb(38, 38, 38);
+        cursor: pointer;
+    }
+    #acc{
+        text-decoration: none;
+    }
+    #createacc{
+        height: 40px;
+        width: 100%;
+        color: blue;
+        font-size: large;
+        text-align: center;
+    }
+    .signupForm{
+        height: 650px;
+        width: 100%;
+        /* background-color: #333; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    .signForm{
+        height: 550px;
+        width: 500px;
+        background-color: rgb(237, 234, 234);
+        text-align: center;
+    }
+    .signFormHaveAccount>a{
+        width: 100%;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+    .signFormHaveAccount>a>h2{
+        color: blue;
+    }
+/* -------------fotter part--------------- */
+    #footerdiv{
+        height: 50px;
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid;
+        
+    }
+
+
+    /* ------------------ mobile page---------------------- */
+   
+     
+    .Mobilerowone,.Mobilerowtwo{ 
+        height: 500px; 
+    } 
+     
+    .mobileoptions{ 
+        display: flex; 
+        align-items: center; 
+        justify-content:space-around; 
+    } 
+    .mobilehere{ 
+        font-size: 50px; 
+        text-align: center; 
+        font-weight: bold; 
+        color:rgb(109, 106, 106); 
+    } 
+    .redmimob,.mobileone,.mobiletwo,.mobilethree,.mobilefour,.oppomob{ 
+        height: 250px; 
+        width:30%;    
+    } 
+    .imgredmi,.imgsamsung,.imgpoco,.imgoppo,.imgvivo,.imgoneplus{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+        height: 200px; 
+    } 
+    .redmi,.samsung,.poco,.oppo,.vivo,.oneplus{ 
+        text-align: center; 
+    } 
+    .RedmiSmartPhone,.SamsungGalaxyNote,.Pocom6Pro5G,.Opporeno10Pro5G,.Vivov27pro5G,.OneplusnordCE3Lite5G{ 
+        font-size: 20px; 
+        color: rgb(57, 54, 46); 
+    } 
+        
+        .redmimobs,.samsungmobs,.oppomobs,.vivomobs{ 
+            height:200px; 
+            width:50%; 
+        } 
+        .oneplusmobs{ 
+            height:250px; 
+        } 
+        .pocomobs{ 
+            height: 250px; 
+            width:65%; 
+        } 
+    .buybutton{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+    } 
+    .buynow{ 
+        height: 50px; 
+        width:50%; 
+        color: yellow;
+        cursor: pointer;
+        font-size: 20px;
+        background-color:rgb(32, 33, 30); 
+        border-radius: 10px;
+       
+        border: none; 
+    } 
+    .imgredmi:hover,.imgsamsung:hover,.imgpoco:hover,.imgoppo:hover,.imgvivo:hover,.imgoneplus:hover{ 
+        height: 280px; 
+        border: 2px solid rgb(18, 25, 25); 
+        background-color: ghostwhite; 
+        transition: 0.8s; 
+    }
+
+    /* -------------------cloths page-------------------- */
+    *{ 
+        margin: 0px; 
+        padding: 0px; 
+    } 
+     
+    .clothsrowone,.clothsrowtwotwo{ 
+        height: 500px; 
+    } 
+     
+    .clothsoptions{ 
+        display: flex; 
+        align-items: center; 
+        justify-content:space-around; 
+    } 
+    .clothshere{ 
+        font-size: 50px; 
+        text-align: center; 
+        font-weight: bold; 
+        color:rgb(53, 51, 51); 
+    } 
+    .mensheading,.womensheading{ 
+        font-size:30px; 
+        font-weight: bold; 
+        color: rgb(21, 31, 1); 
+        height: 50px; 
+        width:15%; 
+        text-align: center; 
+    } 
+    .menscloths,.mensone,.menstwo,.womenthree,.womenfour,.womenfullsleeve{ 
+        height: 250px; 
+        width:30%;    
+    } 
+    .imgfloral,.imgwhitefloral,.imgformal,.imgshurg,.imgw-2,.imgw-3{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+        height: 200px; 
+    } 
+    .mensfloralshirt,.menswhitefloral,.mensformal,.shurg,.kurta,.kurtaone{ 
+        text-align: center; 
+    } 
+    .Mensfloralshirt,.WhiteFloralMenShirt,.Full-SleeveFormalShirt,.WomenFull-SleeveShurg,.PrintedBlackandwhitekurta,.Fulllengthkurta{ 
+        font-size: 20px; 
+        color: rgb(114, 107, 90); 
+    } 
+        
+    .floralshirt,.whitefloral,.formal,.buy3,.women-2,.women-3{ 
+            height:200px; 
+            width:50%; 
+        } 
+         
+    .buybutton{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+    } 
+    .buynow{ 
+        height: 50px; 
+        width:50%; 
+        color: yellow;
+        cursor: pointer;
+        font-size: 20px;
+        background-color:rgb(45, 45, 44); 
+        border-radius: 10px;
+       
+        border: none; 
+    } 
+    .imgfloral:hover,.imgwhitefloral:hover,.imgformal:hover,.imgshurg:hover,.imgw-2:hover,.imgw-3:hover{ 
+        height: 280px; 
+        border: 2px solid rgb(150, 176, 177); 
+        transition: 0.5s; 
+    } 
+    .mensheading:hover{ 
+        color: rgb(45, 44, 38); 
+        font-size: 50px; 
+        transition: 0.5s; 
+    } 
+    .womensheading:hover{ 
+        color: rgb(38, 33, 5); 
+        font-size: 45px; 
+        transition: 1s; 
+     
+    }
+    /* ---------------sell your product details------------------ */
+
+    .detailsOfSell>h1{
+        text-align: center;
+    }
+    .detailsOfSellform{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+    .detailsOfSellform>label>input,#Optionvalue{
+        height: 40px;
+        width: 200px;
+        font-size:medium;
+        border: 2px solid;
+        border-radius: 5px;
+    }
+
+    #formUploadButton{
+        height: 40px;
+        width: 100px;
+        cursor: pointer;
+        color: yellow;
+        background-color: black;
+        font-weight: bold;
+        border-radius: 5px;
+    }

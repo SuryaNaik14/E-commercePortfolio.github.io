@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Signup</title>
+    <script src="https://kit.fontawesome.com/6a5eb0a3f4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navigationbar">
+            <div class="navilogo">
+                <a href="./index.html"><img src="./images/SHOPFINITY.png" alt="" height="120px" width="180px"></a>
+            </div>
+            <div class="navisearch">
+                <input type="text" placeholder=" search for product">
+            </div>
+            <div class="navisign">
+                <a href="./sellyourproducts.html"><h1>Sell Your Product</h1></a>
+                <a href="./signuppage.html"><button>Sign In</button></a>
+                <a href="./cart.html"><h1><i></i> Cart</h1></a>
+            </div>
+        </nav>
+    </header>
+    
+    
+      <div class="signupForm">
+        <div class="sf"> 
+             <div class="signForm">
+                 <h1 class="form1">Create Account</h1><br>
+                 <input class="formField" type="text" placeholder="FirstName" id="firstName" ><br><br>
+                 <input class="formField" type="text" placeholder="LastName" id="lastName" ><br><br>
+                 <input class="formField" type="tel" maxlength="10" placeholder="PhoneNum" id="phone"><br><br>
+                 <input class="formField" type="text" placeholder="Address" id="address" ><br><br>
+                 <input class="formField" type="text" placeholder="EmailId" id="emailId" required><br><br>
+                 <input class="formField" type="password" placeholder="NewPassword" id="newPass" ><br><br>
+                 <input class="formField" type="password" placeholder="ConfirmPassword" id="confirmPass" ><br><br>
+                 <button class="formButton" onclick="sign()">Submit</button><br><br><br>
+            </div><br>
+            <div class="signFormHaveAccount">
+                <a href="./loginpage.html"><h3>Alreay have an account:</h3> <h2> ---Login---</h2></a>
+            </div>        
+
+        </div>
+    </div><br>
+    <footer>
+      <div id="footerdiv">
+          <i class="fa-regular fa-copyright"></i><div></div>
+          <p> Surya Naik | 2023</p>
+      </div>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
